@@ -1,0 +1,356 @@
+@charset 'UTF-8';
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600');
+@import url('font-awesome.min.css');
+
+/*
+	Parallelism by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body
+	{
+		position: relative;
+		background-color: rgb(102,102,102);
+		color: #fff;
+		color: rgba(255,255,255,0.6);
+		font-family: 'Source Sans Pro';
+		font-weight: 400;
+	}
+
+  p
+  {
+    color: #000;
+  }
+
+	a
+	{
+		color: #000;
+		/*color: rgba(255,255,255,0.85); */
+		text-decoration: none;
+		-moz-transition: color 0.25s ease-in-out;
+		-webkit-transition: color 0.25s ease-in-out;
+		-o-transition: color 0.25s ease-in-out;
+		-ms-transition: color 0.25s ease-in-out;
+		transition: color 0.25s ease-in-out;
+    opacity: 1.0;
+	}
+  
+		a:hover
+		{
+      opacity: 0.5;
+		}
+   
+	h1,h2,h3,h4,h5,h6
+	{
+		font-weight: 900;
+		color: #000;
+		letter-spacing: -0.05em;
+	}
+
+/*********************************************************************************/
+/* Items text                                                                    */
+/*********************************************************************************/
+	#uvod
+	{
+		font-size: 3.3vw;
+		text-align: center;
+		padding-top: 10%;
+		line-height: 200%;
+	}
+
+	#uvod2
+	{
+		font-size: 2.1vw;
+		text-align: right;
+		padding-top: 5%;
+		padding-right: 10%;
+		line-height: 200%;
+		font-family: 'Agency FB';
+		font-style: italic;
+		color: rgb(62,62,102);
+	}
+
+	#uvod3
+	{
+		font-size: 1.4vw;
+		text-align: right;
+		padding-right: 12%;
+		color: rgb(102,102,102);
+	}
+
+	#cont
+	{
+		font-size: 2.1vw;
+		text-align: left;
+		padding-left: 10%;
+		padding-top: 7%;
+	}
+
+
+	#capt
+	{
+		font-size: 2vw;
+		text-align: center;
+		padding-top: 3%;
+		margin-bottom: 2%;
+	}
+
+	#inner_text
+	{
+		margin: 5pt 3% 5pt 3%;
+		text-indent: 30px;
+		text-align: justify;
+	}
+
+	article#port_art
+	{
+		margin: 0 0 3% 3%;
+		text-align: center;
+		display: inline-block;
+		border: 1pt solid rgba(160, 80, 160, 0.5);
+		width: 45.5%;
+		min-width: 175px;
+		vertical-align: middle;
+		padding: 3pt;
+	}
+
+	#port_art > h1
+	{
+		font-size: 15pt;
+	}
+
+	#port_art > h2
+	{
+		font-size: 13pt;
+		color: rgb(102,102,102);
+	}
+
+	#inner_img
+	{
+		text-align: center;
+		max-width: 100%;
+		width: auto;
+		max-height: 250px;
+		height: auto;
+	}
+
+	#profile_img
+	{
+		height: 200pt;
+		width: auto;
+		padding: 2pt;
+		border: 1pt dashed #000000;
+	}
+
+	ul.intxt {
+		margin: 0 3% 5pt 3%;
+		list-style-type: circle;
+		border-bottom: 1px solid rgba(160, 80, 160, 0.5);
+		border-right: 1px solid rgba(160, 80, 160, 0.5);
+		border-top: 1px solid rgba(160, 80, 160, 0.5);
+	}
+
+	#sect
+	{
+		font-size: 1.5vw;
+		text-align: center;
+		float: center;
+	}
+
+	text#name
+	{
+		font-weight: bold;
+	}
+
+	strong, b
+	{
+		color: #000;
+		color: rgba(0,0,0,0.85);
+		font-weight: 600;
+	}
+	
+	/* List */
+	
+		/*ul
+		{
+		}*/
+
+			ul.contact
+			{
+				cursor: default;
+				margin: 0 0 1em 0;
+			}
+
+				ul.contact li
+				{
+					display: inline-block;
+					font-size: 1.5em;
+				}
+
+				ul.contact li span
+				{
+					display: none;
+				}
+				
+				ul.contact li a
+				{
+					opacity: 0.35;
+					color: #fff;
+					-moz-transition: opacity 0.25s ease-in-out;
+					-webkit-transition: opacity 0.25s ease-in-out;
+					-o-transition: opacity 0.25s ease-in-out;
+					-ms-transition: opacity 0.25s ease-in-out;
+					transition: opacity 0.25s ease-in-out;
+				}
+				
+					ul.contact li a:hover
+					{
+						opacity: 1.0;
+					}
+          
+    a.nav_item
+				{
+					opacity: 0.35;
+					color: #fff;
+					-moz-transition: opacity 0.25s ease-in-out;
+					-webkit-transition: opacity 0.25s ease-in-out;
+					-o-transition: opacity 0.25s ease-in-out;
+					-ms-transition: opacity 0.25s ease-in-out;
+					transition: opacity 0.25s ease-in-out; 
+				}
+				
+					a.nav_item:hover
+					{
+						opacity: 1.0;
+					}
+          
+          a.arrow:hover
+          {
+            opacity: 1.0;
+          }
+
+    a.active_link
+		{
+      opacity: 1.0;
+		}
+	
+	/* Item */
+
+		.item
+		{
+      display: block;
+			position: relative;
+			background: #fff;
+			cursor: default;
+      color: #000;
+      z-index: 3;
+		}
+		
+			.item.thumb
+			{
+				display: block;
+				position: relative;
+				background: #fff;
+				cursor: default;
+			}
+      
+      /*img
+      {
+        height: auto;
+        max-height: 300pt;
+        width: auto;
+        max-width: 100%;
+      }*/
+      
+      .item.arrow_down
+      {
+        color: #000;
+      }
+
+/*********************************************************************************/
+/* Icons                                                                         */
+/*********************************************************************************/
+
+	.icon
+	{
+		position: relative;
+		text-decoration: none;
+	}
+
+		.icon:before
+		{
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+      		color: #fff;
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+    
+		.icon > .label
+		{
+			display: none;
+		}
+
+	a.icon_text
+	{
+		position: relative;
+		text-decoration: none;
+		font-size: 3vw;
+	}
+
+		a.icon_text:before
+		{
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+      		color: rgb(102,102,102);
+			font-family: FontAwesome;
+			font-style: normal;
+			font-weight: normal;
+			text-transform: none !important;
+		}
+    
+		a.icon_text > .label
+		{
+			display: none;
+		}
+
+/*********************************************************************************/
+/* Wrapper                                                                       */
+/*********************************************************************************/
+	#wrapper
+	{
+		position: relative;
+		z-index: 1;
+    background: rgb(102,102,102);
+	}
+	
+/*********************************************************************************/
+/* Main                                                                          */
+/*********************************************************************************/
+	#main
+	{
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header
+	{
+		position: relative;
+		background: #000;
+		color: #fff;
+		cursor: default;
+	}
+	
+		#header p
+		{
+			opacity: 0.65;
+		}
