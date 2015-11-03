@@ -1,4 +1,9 @@
 <!DOCTYPE HTML>
+<!--
+	Parallelism by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
 		<title>Marta Reznakova</title>
@@ -6,8 +11,166 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />       
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/skel.min.js"></script> 
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>    
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
-	<body style = "text-align: center; font-size: 5em; background: rgb(102, 102, 102); color: #fff; margin-top: 10%;">
-		Page under construction
+	<body id = "body">
+		<div id="wrapper">
+      <!-- Nav -->
+      <nav id="navig">
+			  <ul>
+          <li><a alt = "home" href="#nav_1" class="icon nav_item fa-home"><span class="label">Home</span></a></li>
+          <li><a alt = "About Me" href="#nav_2" class="icon nav_item">About Me</a></li>
+          <li><a alt = "Portfolio" href="#nav_3" class="icon nav_item">Portfolio</a></li>
+          <li><a alt = "Publications" href="#nav_4" class="icon nav_item">Pulications</a></li>
+          <li><a alt = "Contact me" href="#nav_5" class="icon nav_item fa-envelope"><span class="label">Contact me</span></a></li>
+        </ul>
+      </nav>
+
+      <div id="main">
+				<div id="reel">  
+					<!-- Header Item -->
+					<article class="item" id = "item0">
+            <div class="inner">
+              <p id ="uvod">Hello, I'm <b>Marta Reznakova</b>. Welcome to my page.</p>
+              <p id="uvod2">"Say what you know, do what you must, come what may."</p>
+              <p id="uvod3">- Sofia Vasilyevna Kovalevskaya</p>
+            </div>
+            <div class="arrov" id="a1"><div id="arr"><a class = "arrow fa-angle-double-down" href=""><span class="label">Expand</span></a></div></div>
+          </article>
+				  <!-- Thumb Items -->
+				  <article class="item" id = "item1">
+            <div class="inner">
+              <p id = "capt">About me</p>
+              <p>
+                &nbsp;
+                <p style = "float: left; margin: 0 3% 0 3%;"><img id = "profile_img" src="images/me.jpg"></p>
+                <p id = "inner_text">
+                  I am rather curious, adventurous and smiley person. I like to explore and experience new things, places, events, tastes, smells, people, everything. I also like things to be neat and in order, which is a reason why I tend to dig through and find out how things work. And so I do Machine Learning. Perhaps I like to be the puppeteer and perhaps it is because I like to find the system, the pattern in behaviors. In my opinion, once you find the pattern, you can wrap it in some model or formula. And this search is very much rewarding. Nevertheless, some things I prefer chaotic, like nature. I like to go hiking, swimming outdoors, horseback riding, ... I really love fruits, my favorite icecream is vanilla and pistachio, and I do not like coffee (just in case ..).
+                </p>
+                <!--<p id = "inner_img"><img src="images/tatry.jpg"></p>-->
+              </p>
+            </div>
+            <div class="arrov" id="a2"><div id="arr"><a class = "arrow fa-angle-double-down" href=""><span class="label">Expand</span></a></div></div>
+				  </article>
+          <article class="item" id = "item2">
+            <div class="inner">
+              <p id = "capt">Portfolio</p>
+              <p id = "inner_text">
+                &nbsp;
+                <article id = "port_art">
+                  <a href="images/portfolio/SOARTIST.png" target="_blank"><img id = "inner_img" src="images/portfolio/SOARTIST.png"></a>
+                  <h1>SO-ARTIST. Self-Organized evolving fuzzy classifier</h1>
+                  <h2>On-line learning, Machine learning, Neuro-fuzzy modeling</h2>
+                </article>
+                <article id = "port_art">
+                  <a href="images/portfolio/ARTIST.png" target="_blank"><img id = "inner_img" src="images/portfolio/ARTIST.png"></a>
+                  <h1>ARTIST. Evolving fuzzy classifier</h1>
+                  <h2>On-line learning, Machine learning, Neuro-fuzzy modeling</h2>
+                </article>
+                <article id = "port_art">
+                  <a href="images/portfolio/art_data.png" target="_blank"><img id = "inner_img" src="images/portfolio/art_data.png"></a>
+                  <h1>Generation of artificial handwritten data for on-line learning</h1>
+                  <h2>On-line learning, handwritten strokes recognition, Neuro-fuzzy modeling</h2>
+                </article>
+                <article id = "port_art">
+                  <a href="images/portfolio/drawing1.jpg" target="_blank"><img id = "inner_img" src="images/portfolio/drawing1.jpg"></a>
+                  <h1>Lukas with a flower</h1>
+                  <h2>Pencil drawing</h2>
+                </article>
+                <article id = "port_art">
+                  <a href="images/portfolio/buchty.jpg" target="_blank"><img id = "inner_img" src="images/portfolio/buchty.jpg"></a>
+                  <h1>Buchty</h1>
+                  <h2>Whole grain, cottage chese & raisins filling, oven-made</h2>
+                </article>
+                <article id = "port_art">
+                  <a href="images/portfolio/diplo.png" target="_blank"><img id = "inner_img" src="images/portfolio/diplo.png"></a>
+                  <h1>Vessel tree filtering</h1>
+                  <h2>Master thesis, C++</h2>
+                </article>
+                <article id = "port_art">
+                  <!--<a href="images/portfolio/lagrange.png" target="_blank"><img id = "inner_img" src="images/portfolio/lagrange.png"></a>
+                  <a href="images/portfolio/bezier.png" target="_blank"><img id = "inner_img" src="images/portfolio/bezier.png"></a>
+                  <a href="images/portfolio/snow.png" target="_blank"><img id = "inner_img" src="images/portfolio/snow.png"></a>
+                  <a href="images/portfolio/lodicky.png target="_blank""><img id = "inner_img" src="images/portfolio/lodicky.png"></a>-->
+                  <a href="images/portfolio/school_all.png target="_blank""><img id = "inner_img" src="images/portfolio/school_all.png"></a>
+                  <h1>Some of my school projects</h1>
+                  <h2>Lagrange and Bezier curves, Snowing, Battleship game, 3D models, OpenGL, C++, Delphi, ...</h2>
+                </article>
+              </p>
+            </div>
+            <div class="arrov" id="a3"><div id="arr"><a class = "arrow fa-angle-double-down" href=""><span class="label">Expand</span></a></div></div>
+				  </article>
+          <article class="item" id = "item3">
+            <div class="inner">
+              <p id = "capt">Publications</p>
+              <p>
+                &nbsp;
+                <p id = "sect">2015</p>
+
+                <ul class = "intxt">
+                  <li><text id = "name">SO-ARTIST: Self-Organized ART-2A inspired clustering for online Takagi-Sugeno fuzzy models.</text> Režnáková M, Tencer L, Cheriet M. Journal of Applied Soft Computing, Elsevier, 2015</li>
+
+                  <li><text id = "name">The generation of synthetic handwritten data for improving on-line learning.</text> Režnáková M, Tencer L, Plamondon R, Cheriet M. IGS 2015, 2015</li>
+
+                  <li><text id = "name">An Incremental Approach towards Online Sketch Recognition.</text> Tencer L, Režnáková M, Cheriet M. IGS 2015, 2015</li>
+
+                  <li><text id = "name">Universum Learning for Semi-Supervised Signature Recognition from Spatio-Temporal Data.</text> Tencer L, Režnáková M, Cheriet M. IGS 2015, 2015</li>
+
+                  <li><text id = "name">Evaluation of Techniques for Signature Classification from Accelerometer and Gyroscope data.</text> Tencer L, Režnáková M, Cheriet M. ICDAR 2015, 2015</li>
+                </ul>
+
+                <p id = "sect">2014</p>
+
+                <ul class = "intxt">
+                  <li><text id = "name">TITS-FM: Transductive incremental Takagi-Sugeno fuzzy models.</text> Tencer L, Režnáková M, Cheriet M. Journal of Applied Soft Computing, Elsevier, 2014</li>
+                </ul>
+
+                <p id = "sect">2013</p>
+
+                <ul class = "intxt">
+                  <li><text id = "name">ARTIST: ART-2A Driven Generation of Fuzzy Rules for Online Handwritten Gesture Recognition.</text> Režnáková M, Tencer L, Cheriet M. ICDAR 2013, 2013</li>
+
+                  <li><text id = "name">Sketch-Based Retrieval of Document Illustrations and Regions of Interest.</text> Tencer L, Režnáková M, Cheriet M. ICDAR 2013, 2013</li>
+                </ul>
+
+                <p id = "sect">2012</p>
+
+                <ul class = "intxt">
+                  <li><text id = "name">Online handwritten gesture recognition based on Takagi-Sugeno fuzzy models.</text> Režnáková M, Tencer L, Cheriet M. ISSPA 2012, 2012</li>
+                
+                  <li><text id = "name">A new framework for online sketch-based image retrieval in web environment.</text> Tencer L, Režnáková M, Cheriet M. ISSPA 2012, 2012</li>
+                </ul>
+              </p>
+            </div>
+            <div class="arrov" id="a4"><div id="arr"><a class = "arrow fa-angle-double-down" href=""><span class="label">Expand</span></a></div></div>
+				  </article>
+          <article class="item" id = "item4">
+            <div class="inner">
+              <p id="cont">Feel free to contact me at &nbsp;<a href="mailto:marta.reznakova@gmail.com" class="icon_text fa-envelope"><span class="label">Email</span></a></p>
+            </div>
+            <div class="arrov" id="a5"><div id="arr"><a class = "arrow fa-angle-double-down" href=""><span class="label">Expand</span></a></div></div>
+				  </article>  
+        </div>
+		  </div>    
+		  
+			<footer id="footer">
+        <ul class="contact">
+          <li><a alt = "LinkedIn" href="https://www.linkedin.com/in/martareznakova" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+          <li><a alt = "GitHub" href="https://github.com/martareznakova" class="icon fa-github-alt"><span class="label">GitHub</span></a></li>
+			    <li><a alt = "Email" href="mailto:marta.reznakova@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+			  </ul>
+			</footer>
+		</div>
 	</body>
 </html>
