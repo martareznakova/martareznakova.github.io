@@ -453,10 +453,12 @@ var parallelism = (function($) { var _ = {
 
 					// Navigation
 
-						for(lm in $('.nav_item')) {
-							var navig = $(lm).attr("href");
+						//for(lm in $('.nav_item')) {
+						//	var navig = $(lm).attr("href");
 
-							$(lm).click(function(e){
+						//	$(lm).click(function(e){
+							$('.nav_item').click(function(e){
+								var navig = $(e.target).attr("href");
 								if ($unfolded == true){
 									scrolled = _.objects.main.scrollLeft();
 									w = window.innerWidth-5;
@@ -479,7 +481,7 @@ var parallelism = (function($) { var _ = {
 									return false;
 								}
 							});
-						}
+						//}
 
 					// Arrow
 
@@ -644,17 +646,19 @@ var parallelism = (function($) { var _ = {
 
 				// Navigation
 
-					for(lm in $('.nav_item')) {
-						var navig = $(lm).attr("href");
+					//for(lm in $('.nav_item')) {
+						//var navig = $(lm).attr("href");
 
-						$(lm).click(function(e){
+						//$(lm).click(function(e){
+						$('.nav_item').click(function(e){
+							var navig = $(e.target).attr("href");
 							$("#navig > ul > li > a").removeClass("active_link");
 							$(e.target).addClass("active_link");
 							var toScroll = $($(e.target).attr('href')).offset().top
 							$("html, body").animate({scrollTop: toScroll}, 1000);
 							return false;
 						});
-					}
+					//}
 
 					var scrollHandler = function(e) {
 						scrolled = $("#body").scrollTop();
